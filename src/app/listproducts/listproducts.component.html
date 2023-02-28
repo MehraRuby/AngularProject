@@ -1,0 +1,8 @@
+<ul *ngFor ="let t of pt">
+  <li> {{t.prnm }} - {{t.price}} - {{t.qty}} - {{t.dt}} -
+    <button type="button" (click)="fetchrecord(t)" class="btn btn-danger">Delete</button>
+  </li>
+</ul>
+
+
+
